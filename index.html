@@ -10,6 +10,7 @@
             background-color: rgb(91, 176, 255);
             height: 800px;
             display: flex;
+            flex-flow: wrap row-reverse;
         }
         .red{
             background-color: rgb(255, 73, 73);
@@ -23,18 +24,21 @@
 
         .item{
             color: white;
-            
+            width: 450px;
+            height: 450px;
+
             
             
         }
     </style>
 </head>
+<h1>A propriedade CSS flex-flow é uma junção das propriedades flex-direction e flex-wrap.</h1>
 <body>
     <div class="container">
 
-        <div class="item red">Item 01</div>
-        <div class="item blue">Item 02</div>
-        <div class="item orange">Item 03</div>
+        <div class="item red"><p>Item 01</p></div>
+        <div class="item blue"><p>Item 02</p></div>
+        <div class="item orange"><p>Item 03</p></div>
         
     </div>
 </body>
