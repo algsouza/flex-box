@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox-Flex-Flow</title>
+    <style>
+        .container{
+            background-color: rgb(237, 245, 252);
+            height: 800px;
+            display: flex;
+            
+            
+          
+        }
+        .red{
+            background-color: rgb(255, 73, 73);
+            align-self: flex-start;
+         
+        }
+        .blue{
+            background-color: blue;
+           align-self: center;
+            
+            
+        }
+        .greem{
+            background-color: rgb(130, 255, 80);
+            align-self: flex-end;
+            
+        }
+
+        .item{
+            color: white;
+            width: 1500px;
+            height: 400px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        </style>
+
+            
+            
+            
+
+            
+           
+            
+</head>
+<p style="font-size: 30px;">A <mark>align-self</mark> A align-self propriedade especifica o alinhamento do item selecionado dentro do contêiner flexível.</p>
+<p style="font-size: 30px;">A <mark>align-self</mark> propriedade substitui o alinhamento padrão definido pela align-itemspropriedade do contêiner.</p>
+
+<body>
+    <div class="container">
+
+        <div class="item red"><p>Item 01</p></div>
+        <div class="item blue"><p>Item 02</p></div>
+        <div class="item greem"><p>Item 03</p></div>
+        
+    </div>
+</body>
+</html>

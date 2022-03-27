@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox-Flex-Flow</title>
+    <style>
+        .container{
+            background-color: rgb(91, 176, 255);
+            height: 800px;
+            display: flex;
+            
+          
+        }
+        .red{
+            background-color: rgb(255, 73, 73);
+        }
+        .blue{
+            background-color: blue;
+            flex-grow: 2; /* O valor deve ser um número, o valor padrão é 0.*/
+        }
+        .orange{
+            background-color: coral;
+        }
+
+        .item{
+            color: white;
+            width: 150px;
+            height: 150px;
+
+            
+            
+        }
+    </style>
+</head>
+<h1>A flex-growpropriedade especifica quanto um item flexível crescerá em relação ao restante dos itens flexíveis.</h1>
+<body>
+    <div class="container">
+
+        <div class="item red"><p>Item 01</p></div>
+        <div class="item blue"><p>Item 02</p></div>
+        <div class="item orange"><p>Item 03</p></div>
+        
+    </div>
+</body>
+</html>
